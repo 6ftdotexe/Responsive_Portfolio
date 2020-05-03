@@ -1,4 +1,18 @@
 /* --ALL PAGES STYLYING-- */
+#wrapper {
+    width: 1920px;
+    border: 1px solid black;
+    overflow: hidden; /* add this to contain floated children */
+}
+#first {
+    width: 960px;
+    float:left; /* add this */
+    border: 1px solid red;
+}
+#second {
+    border: 1px solid green;
+    float: left; /* add this */
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
